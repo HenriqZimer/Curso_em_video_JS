@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(62, 99, 219);
     width: 99,99%;
     margin: 10px 10px 10px 10px;
     box-shadow: 0px 0px 35px rgb(0, 0, 0);
@@ -26,29 +26,70 @@ header#interface p{
 /*formatacao corpo*/
 section#inicio{
     border: black 10px solid;
-    width: 40%;
+    width: 80%;
     position: relative;
-    margin: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#inicio p{
+    font-weight: bolder;
+    font-size: 25px;
 }
 article#entrada{
     border: white 10px solid;
+    text-align: center;
+}
+article#entrada li{
+    position: relative;
+    margin:auto;  
+    list-style: none;
+}
+article#entrada input{
+    background-color:rgb(0, 89, 253) ;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 30px;
 }
 section#lateral{
     border: black 10px solid;
-    width: 40%;
+    width: 90%;
     position: relative;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 aside#saida{
     border: white 10px solid;
+    text-align: center;
+}
+aside#saida li {
+    display: inline-block;
+    margin: auto;
+    list-style: none;
+}
+aside#saida input{
+    text-transform: uppercase;
+    padding: 25px;
+    font-size: 20px;
+    border: black 5px solid;
+    border-radius: 30px;
+    background-color: rgb(0, 140, 255) ;
+    font-weight: bolder;
+    
+}
+
+section#baixo h1{
+    text-align: center;
+    font-size: 40px;
 }
 footer#res{
     margin: 10px 10px 10px 10px;
     border: white 10px solid;
     padding: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
-footer#res n1{
-    color: violet;
-}
+
