@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="\Curso_em_video_JS\Teste\_css.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header id="interface">
+        <h1>Calculadora do Henrique</h1>
+        <p>Insira os Numeros para <strong>Calcular</strong></br> Contas de +, -, * e / .
+        </strong></p>
+</header>
+
+<section id="inicio">
+    <article id="entrada">
+        <nav id="menu">
+            <ul><li><input type="number" name="num1" id="num1"></li> 
+                <li><input type="number" name="num2" id="num2"></li>
+            </ul>
+            </nav>
+        </article> 
+</section>
+<section id="lateral">
+    <aside id="saida">
+            <ul id="calc">
+                <li><input type="button" value="Multiplicar" onclick="multiplicar()"></li>
+                <li><input type="button" value="Somar" onclick="somar()"></li>
+                <li><input type="button" value="Subtrair" onclick="subtrair()"></li>
+                <li><input type="button" value="Dividir" onclick="dividir()"></li>
+            </ul>
+        </aside>
+    </section>
+    <section>
+            <footer id="res">resultado</div>
+            </section>
+        </nav> 
+
+<script>
+        function multiplicar(){
+            var num1 = window.document.getElementById('num1')
+            var num2 = window.document.querySelector ('input#num2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = n1 * n2
+            res.innerHTML= `A Multiplicação entre ${n1} e ${n2} é igual a ${s}`
+        }
+</script>
+
+<script>
+        function somar(){
+            var num1 = window.document.getElementById('num1')
+            var num2 = window.document.querySelector ('input#num2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = n1 + n2
+            res.innerHTML= `A soma entre ${n1} e ${n2} é igual a ${s}`
+        }
+</script>
+
+<script>
+        function subtrair(){
+            var num1 = window.document.getElementById('num1')
+            var num2 = window.document.querySelector ('input#num2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = n1 - n2
+            res.innerHTML= `A Subtração entre ${n1} e ${n2} é igual a ${s}`
+        }
+</script>
+   
+<script>
+        function dividir(){
+            var num1 = window.document.getElementById('num1')
+            var num2 = window.document.querySelector ('input#num2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var s = n1 / n2
+            res.innerHTML= `A Divisão entre ${n1} e ${n2} é igual a ${s}`
+        }
+</script>
+
+</body>
+</html>

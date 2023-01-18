@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(255, 0, 0);
+    width: 99,99%;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 35px rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 1px;
+    text-transform: uppercase;
+}
+header{
+   margin: 10px 10px 10px 10px;
+    border: 10px rgb(0, 0, 0) solid;
+    border-radius: 10px; 
+}
+header#interface h1{
+    text-align: center;
+    font-size: 40px;
+}
+header#interface p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/*formatacao corpo*/
+section#inicio{
+    border: black 10px solid;
+    width: 40%;
+    position: relative;
+    margin: auto;
+}
+article#entrada{
+    border: white 10px solid;
+}
+section#lateral{
+    border: black 10px solid;
+    width: 40%;
+    position: relative;
+    margin: auto;
+}
+aside#saida{
+    border: white 10px solid;
+}
+footer#res{
+    margin: 10px 10px 10px 10px;
+    border: white 10px solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+footer#res n1{
+    color: violet;
+}
