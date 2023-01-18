@@ -11,7 +11,7 @@ body{
 }
 header{
    margin: 10px 10px 10px 10px;
-    border: 10px rgb(0, 0, 0) solid;
+    /*border: 10px rgb(0, 0, 0) solid;*/
     border-radius: 10px; 
 }
 header#interface h1{
@@ -25,7 +25,7 @@ header#interface p{
 
 /*formatacao corpo*/
 section#inicio{
-    border: black 10px solid;
+    /*border: black 10px solid;*/
     width: 80%;
     position: relative;
     margin: 10px;
@@ -37,7 +37,7 @@ section#inicio p{
     font-size: 25px;
 }
 article#entrada{
-    border: white 10px solid;
+    /*border: white 10px solid;*/
     text-align: center;
 }
 article#entrada li{
@@ -54,7 +54,7 @@ article#entrada input{
     border-radius: 30px;
 }
 section#lateral{
-    border: black 10px solid;
+    /*border: black 10px solid;*/
     width: 90%;
     position: relative;
     margin: auto;
@@ -62,7 +62,7 @@ section#lateral{
     margin-right: auto;
 }
 aside#saida{
-    border: white 10px solid;
+   /* border: white 10px solid;*/
     text-align: center;
 }
 aside#saida li {
@@ -87,7 +87,7 @@ section#baixo h1{
 }
 footer#res{
     margin: 10px 10px 10px 10px;
-    border: white 10px solid;
+    /*border: white 10px solid;*/
     padding: 10px;
     text-align: center;
     font-size: 30px;
